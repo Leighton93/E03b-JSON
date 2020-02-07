@@ -159,7 +159,7 @@
 		"name": "Forest",
 		"desc": "This is a dimly lit forest, with large trees all around.  One\nparticularly large tree with some low branches stands here.",
 		"exits": [{
-			"exit": "UP",
+			"exit": "DOWN",
 			"target": "TREE"
 		}, {
 			"exit": "NORTH",
@@ -529,7 +529,7 @@
 	},
 	"MGRAT": {
 		"name": "Grating Room",
-		"desc": "",
+		"desc": "If you stay here much longer, you will be eaten by a Grue",
 		"exits": [{
 			"exit": "SW",
 			"target": "MAZ11"
@@ -779,6 +779,8 @@
 	"EGYPT": {
 		"name": "Egyptian Room",
 		"desc": "This is a room which looks like an Egyptian tomb.  There is an\nascending staircase in the room as well as doors, east and south.",
+		"MUMMY": "An ancient Egyptian mummy is sprawled on floor",
+		"TAKE": "You stuff the mummy in to your sack",
 		"exits": [{
 			"exit": "UP",
 			"target": "ICY"
@@ -881,12 +883,16 @@
 		"exits": [{
 			"exit": "WEST",
 			"target": "PASS4"
-		}, {
+		},{
 			"exit": "NORTH",
 			"target": "CRAW3"
 		}, {
 			"exit": "EAST",
 			"target": "CAVE2"
+		}, {
+			"exit": "NORTH",
+			"target": "MIRR1"
+
 		}],
 		"items": []
 	},
@@ -1072,7 +1078,7 @@
 	},
 	"DEAD7": {
 		"name": "Dead End",
-		"desc": "Dead End",
+		"desc": "You have reached a dead end",
 		"exits": [{
 			"exit": "SOUTH",
 			"target": "BLADD"
@@ -1117,7 +1123,7 @@
 	},
 	"BATS": {
 		"name": "Bat Room",
-		"desc": "",
+		"desc": "This is a cave full of bats. They are currently sleeping",
 		"exits": [{
 			"exit": "EAST",
 			"target": "SQUEE"
@@ -1232,6 +1238,7 @@
 	"MINE7": {
 		"name": "Coal mine",
 		"desc": "This is a non-descript part of a coal mine.",
+		"SIGN": "A sign is here that points down",
 		"exits": [{
 			"exit": "EAST",
 			"target": "MINE1"
@@ -1681,7 +1688,7 @@
 	},
 	"FCHMP": {
 		"name": "Moby lossage",
-		"desc": "",
+		"desc": "You are stuck with no way out",
 		"exits": [],
 		"items": []
 	},
@@ -2055,6 +2062,9 @@
 		"name": "Bank Entrance",
 		"desc": "This is the large entrance hall of the Bank of Zork, the largest\nbanking institution of the Great Underground Empire. A partial\naccount of its history is in 'The Lives of the Twelve Flatheads' with\nthe chapter on J. Pierpont Flathead.  A more detailed history (albeit\nless objective) may be found in Flathead's outrageous autobiography\n'I'm Rich and You Aren't - So There!'.\nMost of the furniture has been ravaged by passing scavengers.  All\nthat remains are two signs at the Northwest and Northeast corners of\nthe room, which say\n  \n      <--  WEST VIEWING ROOM        EAST VIEWING ROOM  -->  \n",
 		"exits": [{
+			"exit": "ROB",
+			"target": "BKVAU"
+			},{
 			"exit": "NW",
 			"target": "BKTW"
 		}, {
@@ -2178,7 +2188,7 @@
 		"items": []
 	},
 	"CP": {
-		"name": "Room in a Puzzle",
+		"name": "Just a room(not at all suspicious",
 		"desc": "",
 		"exits": [{
 			"exit": "NORTH",
@@ -2434,25 +2444,25 @@
 	},
 	"MRDE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRDW": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRGE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRGW": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2791,7 +2801,7 @@
 	},
 	"PCELL": {
 		"name": "Prison Cell",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},

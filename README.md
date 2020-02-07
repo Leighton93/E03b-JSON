@@ -1,4 +1,6 @@
 # E03b-JSON
+ChristIan Leighton
+02/7/2020
 This exercise will give you the opportunity to edit an existing JSON file (in the game-description format we are using for MSCH-C220). Fork and Clone this repository and then make the following edits to zork.json:
 
  - Change the exit in FORE3 from UP to DOWN
@@ -15,3 +17,4 @@ This exercise will give you the opportunity to edit an existing JSON file (in th
 If you need to check to see if you have produced a valid JSON file, you can validate it at https://jsonformatter.org/json-editor.
 
 Edit the LICENSE and README.md and submit a URL to your repository on Canvas.
+I added my name in license and in readme, I also made the changes to the code as per assignment and tested the code on JSON file. Everything came back good. 
